@@ -5,7 +5,7 @@ Test Teardown       Fechar sessão
 
 ***Variables
 ${URL}              https://seubarriga.wcaquino.me/cadastro
-${BROWSER}          headlessfirefox
+${BROWSER}          headlesschrome
 
 ***Test Cases
 Cadastrar Usuário

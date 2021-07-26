@@ -8,7 +8,7 @@ Test Teardown       Fechar sessão
 
 ***Variables
 ${URL}      http://conexaoqa.herokuapp.com/login
-${BROWSER}  internetexplorer
+${BROWSER}  headlesschrome
 
 ***Test Cases
 Login com sucesso
