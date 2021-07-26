@@ -15,7 +15,7 @@ pipeline {
       }
       stage('Testing') {
           steps {
-            sh 'pabot -d ./logs -v browser:headless tests/web'
+            sh 'pabot -d ./logs -v browser:chromeheadless web'
           }
           post {
              always {
