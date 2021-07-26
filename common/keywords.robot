@@ -1,6 +1,6 @@
 ***Variables
 ${URL}              https://seubarriga.wcaquino.me/cadastro
-${BROWSER}          chrome
+${BROWSER}          headlesschrome
 
 ***Keywords
 Abrir sessão
