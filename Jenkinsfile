@@ -9,13 +9,13 @@ pipeline {
       stage('Build') {
          steps {
             sh 'pip install -r requirements.txt'
-            sh 'webdrivermanager firefox chrome'
+            sh 'webdrivermanager firefox chrome --linkpath AUTO'
 
          }
       }
       stage('Testing') {
           steps {
-            sh 'pabot -d ./logs -v browser:headless web'
+            sh 'pabot -d ./logs -v browser:headless tests/web'
           }
           post {
              always {
