@@ -10,7 +10,7 @@ pipeline {
          steps {
             sh 'pip install -r requirements.txt'
             sh 'webdrivermanager firefox chrome --linkpath AUTO'
-            sh 'RUN apt-get install -y google-chrome-stable'
+            sh 'apt-get install -y google-chrome-stable'
 
          }
       }
