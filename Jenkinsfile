@@ -9,7 +9,7 @@ pipeline {
       stage('Build') {
          steps {
             sh 'pip install -r requirements.txt'
-            sh 'webdrivermanager firefox chrome --linkpath ./
+            sh 'webdrivermanager firefox chrome'
 
          }
       }
