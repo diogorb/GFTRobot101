@@ -10,7 +10,8 @@ pipeline {
          steps {
             sh 'pip install -r requirements.txt'
             sh 'webdrivermanager firefox chrome --linkpath AUTO'
-            sh 'apt-get install -y google-chrome-stable'
+            sh 'wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb'
+            sh 'sudo apt install ./google-chrome-stable_current_amd64.deb'
 
          }
       }
