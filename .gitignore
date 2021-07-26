@@ -1,0 +1,12 @@
+logs/*
+logs*/
+logs*/*
+selenium-screenshot*
+__pycache__
+logs*.zip
+logs*.7z
+.pabotsuitenames
+*.html
+*.xml
+temp/
+develop*/*
