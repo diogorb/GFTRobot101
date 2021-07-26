@@ -1,7 +1,7 @@
 pipeline {
    agent {
        docker {
-           image 'python:3.8'
+           image 'selenium/standalone-chrome'
        }
    }
 
@@ -10,6 +10,7 @@ pipeline {
          steps {
             sh 'pip install -r requirements.txt'
             sh 'webdrivermanager firefox chrome --linkpath AUTO'
+            sh 'apt-get install chrome'
 
          }
       }
