@@ -3,4 +3,3 @@ robotframework-seleniumlibrary
 robotframework-pabot
 datetime
 dateutils
-webdrivermanager
